@@ -1,0 +1,4 @@
+build
+include
+jniLibs
+faad2/config.h
