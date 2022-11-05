@@ -3,11 +3,11 @@
 
 /* Define if you want to use libfaad together with Digital Radio Mondiale
    (DRM) */
-/* #undef DRM */
+#undef DRM
 
 /* Define if you want support for Digital Radio Mondiale (DRM) parametric
    stereo */
-/* #undef DRM_PS */
+#undef DRM_PS
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #define HAVE_DLFCN_H 1
