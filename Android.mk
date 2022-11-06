@@ -48,4 +48,4 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/faad2/include $(LOCAL_PATH)/faad2/libfaad
 
 LOCAL_CFLAGS := -DHAVE_CONFIG_H 
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)

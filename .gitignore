@@ -2,3 +2,6 @@ build
 include
 jniLibs
 faad2/config.h
+
+samples/.idea/
+lib/audioconverter/.cxx/

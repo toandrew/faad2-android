@@ -10,4 +10,8 @@ ndk-build NDK_PROJECT_PATH=./build \
 			APP_BUILD_SCRIPT=./Android.mk \
 			V=1
 			
-cp -rf faad2/include ./include
+#cp -rf faad2/include ./include
+
+cp -rf faad2/include lib/audioconverter/src/main/cpp/faad2/include
+cp -rf build/obj/local/armeabi-v7a/libfaad2.a lib/audioconverter/src/main/cpp/faad2/armeabi-v7a/libfaad2.a
+cp -rf build/obj/local/arm64-v8a/libfaad2.a lib/audioconverter/src/main/cpp/faad2/arm64-v8a/libfaad2.a
